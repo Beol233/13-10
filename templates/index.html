@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/usuarios_crear" method="POST">
+        <section>
+            <h1>Registro</h1>
+            <label>Nombre: <input type="text" required></label>
+            <br>
+            <label>Apellido: <input type="text" required></label>
+            <br>
+            <label>E-mail: <input type="email" required></label>
+            <br>
+            <label>Contraseña: <input type="password" required></label>
+            <br>
+            <label>Confirmar Contraseña: <input type="password" required></label>
+            <br>
+            <button type="submit">Crear</button> 
+        </section>
+    </form>
+
+    <form action="/iniciar_sesion" method="POST">
+        <section>
+            <h1>Inicio sesión</h1>
+            <label>E-mail: <input type="text" required></label>
+            <br>
+            <label>Contraseña: <input type="password" required></label>
+            <br>
+            <button type="submit"><a href="">Iniciar sesión</a></button>
+        </section>
+    </form>
+</body>
+</html>
